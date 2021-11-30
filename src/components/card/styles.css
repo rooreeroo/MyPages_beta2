@@ -1,0 +1,53 @@
+.modal-items{
+    height: 61px;
+    display: flex;
+    justify-content: flex-start;
+    transition: background-color 1s;
+    border-bottom: 1px dashed #ccc;
+}
+
+
+
+.title{
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: normal;
+}
+.counter{
+    font-family: Arial;
+    padding: 20px  20px 20px 10px;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #404040;
+}
+.code{
+    padding: 20px 10px 20px 20px;
+}
+.price {
+    font-family: Arial;
+    padding-top: 19px;
+    justify-content: center;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    padding-right: 30px;
+    color: #404040;
+}

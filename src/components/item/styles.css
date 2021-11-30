@@ -1,0 +1,36 @@
+/* Пункт списка */
+.Item{
+    display: flex;
+    justify-content: flex-start;
+    transition: background-color 1s;
+}
+
+.Item_selected{
+    background: #75aaf1;
+}
+
+.Item__title{
+    width: 100%;
+    padding: 20px 10px;
+}
+.Item__actions{
+    padding: 20px  20px 20px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Item__number{
+    padding: 20px 10px 20px 20px;
+}
+.price {
+    padding-top: 19px;
+    justify-content: center;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Arial;
+    text-align: right;
+
+    color: #404040;
+}
